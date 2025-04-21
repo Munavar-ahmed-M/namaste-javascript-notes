@@ -48,7 +48,8 @@ What is **Shadowing**?
   console.log(a); // 10, instead of the 100 we were expecting. So block "a" modified val of global "a" as well. In console, only b and c are in block space. a initially is in global space(a = 100), and when a = 10 line is run, a is not created in block space, but replaces 100 with 10 in global space itself.
   ```
 
-- So, If one has same named variable outside the block, the variable inside the block _shadows_ the outside variable. **This happens only for var**
+- So, If one has same named variable outside the block, the variable inside the block _shadows_ the outside variable.
+- mean, the block have seperate variable and seperate storage than other variable except **var its store in the global scope/space**
 
 - Let's observe the behaviour in case of let and const and understand it's reason.
 
