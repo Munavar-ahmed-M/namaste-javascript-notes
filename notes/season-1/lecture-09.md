@@ -4,7 +4,7 @@ What is a **Block**?
 
 - Block aka _compound statement_ is used to group JS statements together into 1 group. We group them within {...}
 - where javascript needs single statement we use block to group mulitple statements
--  ```js
+  ```js
   if(true) true; //it required single statement
   //but when we need to execute multiple statement we use block
   if(true){
